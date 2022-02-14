@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../icons/img/logo-globe.png";
-const NavBar = () => {
+import Logo from "../icons/logo-globe.png";
+const Navbar = () => {
   return (
     <header className="header">
       <nav className="nav">
@@ -11,4 +11,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;

@@ -1,11 +1,11 @@
-import NavBar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import "./index.css";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <Navbar />
       <Main
         image="img1.png"
         location="Japan"
