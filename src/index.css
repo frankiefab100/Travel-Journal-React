@@ -1,13 +1,103 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #e7e7e7;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  background-color: #f55a5a;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-name {
+  font-weight: 500;
+  font-size: 14.4px;
+  margin-left: 5px;
+}
+
+.container {
+  color: #2b283a;
+  display: flex;
+  justify-content: center;
+  margin: 30px 40px;
+  width: 471px;
+  height: 168px;
+}
+
+.App {
+  background-color: #fff;
+  padding-bottom: 5px;
+  max-width: 550px;
+  max-height: 704px;
+}
+
+.left {
+  margin-right: 20px;
+}
+
+.left img {
+  border-radius: 5px;
+}
+
+.right {
+  margin-top: 20px;
+}
+
+.right .location {
+  display: flex;
+}
+
+.location img {
+  width: 8px;
+  height: auto;
+}
+
+.location-name {
+  font-size: 10.24px;
+  text-transform: uppercase;
+  padding: 0 5px;
+  letter-spacing: 2px;
+}
+
+a {
+  color: #918e9b;
+  font-size: 10.24px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 25px;
+  margin: 5px auto 15px;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 10.24px;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 1.5;
 }
