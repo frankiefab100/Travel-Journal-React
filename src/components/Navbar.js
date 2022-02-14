@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../img/logo-globe.png";
+import Logo from "../icons/img/logo-globe.png";
 const NavBar = () => {
   return (
     <header className="header">

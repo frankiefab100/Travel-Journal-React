@@ -1,5 +1,5 @@
 import React from "react";
-import Location from "../img/location-point.png";
+import Location from "../icons/location-point.png";
 import "../index.css";
 const Main = (props) => {
   return (
